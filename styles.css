@@ -14,9 +14,10 @@ p {
 
 .background {
     background-color: hsl(30, 38%, 92%);
-    /* height: 100vh;
-    width: 100vw; */
+    height: 100vh;
+    width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -104,11 +105,6 @@ p {
 }
 
 @media screen and (min-width: 1440px) {
-    .background {
-        width: 100vw;
-        height: 100vh;
-    }
-
     .card {
         width: 40%;
         display: flex;
