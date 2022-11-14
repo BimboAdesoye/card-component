@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 14px;
+}
+
+.background {
+    background-color: hsl(30, 38%, 92%);
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 2rem 1.3rem;
+    border-radius: 10px;
+}
+
+.card-image img {
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    padding: 1.3rem 1.2rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card-content {
+    margin-bottom: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-content .card-call {
+    text-transform: uppercase;
+    opacity: .7;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin-bottom: .9rem;
+}
+
+.card-content h1 {
+    font-family: 'Fraunces', serif;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.card-content .card-text {
+    opacity: .7;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+}
+
+.card-content .card-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.card-content .card-price span {
+    font-size: 31px;
+    color: hsl(158, 52%, 29%);
+    font-family: 'Fraunces', serif;
+    margin-right: 20px;
+}
+
+.card-content .card-price s {
+    font-size: 13px;
+    opacity: .6;
+}
+
+.card-content .card-link {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    padding: 1.1rem;
+    margin: .3rem;
+}
+
+.card-content .card-link a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 12px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1440px) {
+    .background {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .card {
+        width: 40%;
+        display: flex;
+    }
+
+    .card-image, .card-content {
+        width: 50%;
+    }
+
+    .card-image img {
+        border-top-right-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .card-content {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+}
