@@ -34,4 +34,4 @@ This is the second project in the Frontend Mentor challenge program that I'm par
 
 - Website - [Abimbola Adesoye]
 - Frontend Mentor - (https://www.frontendmentor.io/profile/BimboAdesoye)
-- Twitter - [@yourusername](https://www.twitter.com/Adesoye_bimbola)
+- Twitter - (https://www.twitter.com/Adesoye_bimbola)
