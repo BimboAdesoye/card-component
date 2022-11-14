@@ -91,6 +91,10 @@ p {
     margin: .3rem;
 }
 
+.card-link:hover {
+    background-color: hsl(158, 40%, 27%);
+}
+
 .card-content .card-link a {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
